@@ -26,5 +26,5 @@ spec:
         httpHeaderName: "x-myval"
   subsets:
     - labels:   # SELECTOR.
-        app: staff-service # find pods with label "safe"
+        app: staff-service # find pods with label "app?: staff-service"
       name: all-staff-service-pods
